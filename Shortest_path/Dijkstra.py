@@ -1,3 +1,5 @@
+# 이 코드에서는 입력되는 데이터의 수가 많다는 가정하에 파이썬 내장 함수인 input()을 빠르게 동작하는
+# sys.stdin.readline()으로 치환하여 사용하는 방법을 적용합니다.
 import sys
 input = sys.stdin.readline
 INF = int(1e9) #무한을 의미하는 값으로 10억을 설정합니다.
